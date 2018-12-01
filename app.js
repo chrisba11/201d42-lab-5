@@ -134,10 +134,29 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
+// var i = 0;
 
-function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+// multiply(testDynamicArray[i],testDynamicArray[i+1])[0];
 
-}
+// while (i < testDynamicArray.length) {
+//   var arrayLength = testDynamicArray.length;
+//   var num1 = testDynamicArray.unshift();
+//   console.log(arrayLength);
+//   console.log(num1);
+//   console.log(testDynamicArray[0]);
+//   var product = multiply(num1, testDynamicArray[0])[0];
+//   i++
+  // console.log(product);
+// } 
+
+
+// function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+//   for (var i = 0; i < testDynamicArray.length; i++) {
+//     var product = multiply(testDynamicArray[i],testDynamicArray[i+1])[0];
+//     console.log(product);
+//     return product;
+//   }
+// }
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyAnyArray(testDynamicArray);
